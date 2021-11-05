@@ -18,4 +18,13 @@ function findNemo(array){
 console.log('Call to find Nemo took ' + (t1-t0) + 'milliseconds')
 }
 
-findNemo(large);
+//findNemo(large);  // To test O(n) 
+
+const boxes = [0,1,2,3,4,5];
+
+function logFirstTwoBoxes(boxes){
+  console.log(boxes[0]);
+  console.log(boxes[1]);
+}
+
+logFirstTwoBoxes(boxes); // To test O(1)
